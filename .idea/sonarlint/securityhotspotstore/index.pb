@@ -135,10 +135,6 @@ Q.idea/sonarlint/securityhotspotstore/1/7/17c39b21e14aad185fc8e4d0ad6639b90299d6
 Q.idea/sonarlint/securityhotspotstore/1/1/11e8d303602185bf76e259a48011025e679a38de,e\f\efc9e0273a7b8d602f72201dd82eac6f75ee60b8
 
 Q.idea/sonarlint/securityhotspotstore/4/b/4b82faa1276883a433975452b6a76fe3c3f06fbd,8\6\8672cf9b46ac67c75d03e31da6780c6b71a87a58
-‚
-R02-java17-features/src/main/java/lesson/java17features/FormatterPatternSwitch.java,1\9\19c37f6fec2646ba2ffbdb6c5d6fedcdc4741231
-t
-D02-java17-features/src/main/java/lesson/java17features/Features.java,3\a\3a7c72c3fc0df8a6cdb1e6c9f97abb8a668ca490
 u
 E03-java-21-features/src/main/java/lesson/java21features/Features.java,3\c\3cbac768e1e2c64627242e643a1eb7dbaedd0a07
 x
@@ -147,12 +143,6 @@ r
 B02-java17-features/src/main/java/lesson/java17features/Switch.java,d\5\d5878b2797354c7e2d1d2f0c18cf1c9ff6062b04
 w
 G02-java17-features/src/test/java/lesson/java17features/SwitchTests.java,c\e\ce1d95368fcd24c62d5073e6f8e686cf6e7e3594
-y
-I02-java17-features/src/main/java/lesson/java17features/SealedClasses.java,0\d\0dd993e5c2c7182076d00b8a07f9e8d07da6f3d9
-x
-H02-java17-features/src/main/java/lesson/java17features/LessonActive.java,8\4\840c67a8e17122f030c5d94dba6a9faf0c57fa87
-{
-K02-java17-features/src/main/java/lesson/java17features/SealedInterface.java,1\0\108e88e367bea5be869c388148c07877ea514a61
 w
 G02-java17-features/src/main/java/lesson/java17features/SealedClass.java,2\b\2b2724596760be664d251e5ff2fd820e4a94dfbb
 |

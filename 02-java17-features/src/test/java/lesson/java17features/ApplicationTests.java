@@ -14,15 +14,12 @@ class ApplicationTests {
 
     @Test
     void contextLoads() {
-        // Basic test to ensure that the Spring context loads successfully
         assertNotNull(application);
     }
 
     @Test
     void mainMethodShouldNotThrowException() {
-        // Test to ensure that the main method does not throw any exception
         assertDoesNotThrow(() -> Application.main(new String[]{}));
     }
 
-    // Add more test cases as needed
 }
