@@ -1,13 +1,17 @@
 ## Lesson
 - 01 sprint initialize gradle java 21
 - 02 lesson java 17 since java 8
-  - switch pattern
-  - sealed class
-- 03
-
-## Tutorial
-- 01
-- 02
-  - https://www.youtube.com/watch?v=m2ak1zI-M8g
-- 03 
+  - Language enhancements
+    - Records
+    - Switch expressions
+    - Pattern matching for `instanceof`
+    - Text blocks
+    - Local variable type inference for lambda expressions
+  - Other key features
+    - Sealed classes and interfaces
+    - Improved deserialization
+    - Flexible `main` method
+    - Enhanced random number generation
+    - Foreign Function and Memory API (incubator)
+- 03 lesson java 21 since java 17
   - ?
