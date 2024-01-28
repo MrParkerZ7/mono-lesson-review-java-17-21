@@ -1,5 +1,6 @@
 ## Lesson
 - 01 sprint initialize gradle java 21
+  - spring initializer - https://start.spring.io/
 - 02 lesson java 17 since java 8
   - Language enhancements
     - A - Records ✅
@@ -12,6 +13,18 @@
     - G - Improved deserialization ❌
     - H - Flexible `main` method ❌
     - I - Enhanced random number generation ✅
-    - J - Foreign Function and Memory API (incubator)
+    - J - Foreign Function and Memory API (incubator) ❌ lesson included c language
 - 03 lesson java 21 since java 17
-  - ?
+  - Major additions
+    - Virtual threads
+    - Structured concurrency (Preview)
+    - Scoped values (Preview)
+    - Record patterns
+    - Sequenced collections
+    - Key encapsulation mechanism API
+  - Additional notable changes
+    - String templates (Preview)
+    - Elastic metaspace
+    - Foreign-Memory Access API (Incubator)
+    - Enable dynamic archiving of classes
+    - Improved class loading
