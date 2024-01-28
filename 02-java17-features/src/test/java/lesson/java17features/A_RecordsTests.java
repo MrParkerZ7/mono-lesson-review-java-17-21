@@ -15,9 +15,9 @@ class A_RecordsTests {
         String name = "Test Project";
         Integer score = 95;
 
-        Project project = aRecords.newProject(name, score);
+        A_Project AProject = aRecords.newProject(name, score);
 
-        assertEquals(name, project.name());
-        assertEquals(score, project.score());
+        assertEquals(name, AProject.name());
+        assertEquals(score, AProject.score());
     }
 }

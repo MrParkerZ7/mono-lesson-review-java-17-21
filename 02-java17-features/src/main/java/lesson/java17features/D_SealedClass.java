@@ -1,24 +1,24 @@
 package lesson.java17features;
 
-sealed interface SealedInterface permits SealedAbstract {
+sealed interface D_SealedInterface permits D_SealedAbstract {
     String messageSealedInterface();
 }
 
-sealed interface SealedAbstract extends SealedInterface permits SealedClass {
+sealed interface D_SealedAbstract extends D_SealedInterface permits D_SealedClass {
     default String messageSealedInterface() {
-        return String.format("Sealed: %s - %s", SealedAbstract.class.getName(), this.getClass().getName());
+        return String.format("Sealed: %s - %s", D_SealedAbstract.class.getName(), this.getClass().getName());
     }
 }
 
-sealed class SealedClass implements SealedAbstract permits LessonActive {
+sealed class D_SealedClass implements D_SealedAbstract permits D_LessonActive {
 
     public String messageSealedClass() {
-        return String.format("Sealed: %s - %s", SealedClass.class.getName(), this.getClass().getName());
+        return String.format("Sealed: %s - %s", D_SealedClass.class.getName(), this.getClass().getName());
     }
 }
 
 
-final class LessonActive extends SealedClass {
+final class D_LessonActive extends D_SealedClass {
 
     public String message() {
         return String.format("Sealed: %s", this.getClass().getName());

@@ -10,14 +10,16 @@ class D_SealedClassTests {
 
     @Test
     void testMessageSealedClass() {
-        SealedClass sealedClass = new LessonActive();
+        // Create an instance of the concrete subclass
+        D_LessonActive lessonActive = new D_LessonActive();
 
-        assertEquals("Sealed: lesson.java17features.SealedAbstract - lesson.java17features.LessonActive",
-                sealedClass.messageSealedInterface());
+        // Test method calls using pattern matching
+        assertEquals("Sealed: lesson.java17features.D_SealedAbstract - lesson.java17features.D_LessonActive",
+                lessonActive.messageSealedInterface());
 
-        assertEquals("Sealed: lesson.java17features.SealedClass - lesson.java17features.LessonActive",
-                sealedClass.messageSealedClass());
+        assertEquals("Sealed: lesson.java17features.D_SealedClass - lesson.java17features.D_LessonActive",
+                lessonActive.messageSealedClass());
 
-        assertEquals("Sealed: lesson.java17features.LessonActive", ((LessonActive) sealedClass).message());
+        assertEquals("Sealed: lesson.java17features.D_LessonActive", lessonActive.message());
     }
 }

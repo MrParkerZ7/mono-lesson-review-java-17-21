@@ -1,8 +1,8 @@
 package lesson.java21features;
 
-public class Features {
+public class FormatterPatternSwitch {
 
-    static String formatterPatternSwitchBool(Object value) {
+    static String sampleByBool(Object value) {
         return switch (value) {
             case Integer i -> String.format("INTEGER %d", i);
             case Long l -> String.format("INTEGER %d", l);
