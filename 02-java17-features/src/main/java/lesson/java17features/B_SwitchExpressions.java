@@ -1,6 +1,6 @@
 package lesson.java17features;
 
-public class Switch {
+public class B_SwitchExpressions {
 
     static String switchBoolPattern(Integer value) {
         return switch (value) {
