@@ -10,7 +10,7 @@ sealed interface SealedAbstract extends SealedInterface permits SealedClass {
     }
 }
 
-public sealed class SealedClass implements SealedAbstract permits LessonActive {
+sealed class SealedClass implements SealedAbstract permits LessonActive {
 
     public String messageSealedClass() {
         return String.format("Sealed: %s - %s", SealedClass.class.getName(), this.getClass().getName());

@@ -361,3 +361,11 @@ w
 G.idea/sonarlint/issuestore/e/f/efc9e0273a7b8d602f72201dd82eac6f75ee60b8,6\0\60d02670f4c527a83972a8c5e56cec30b4d2bdc8
 w
 G.idea/sonarlint/issuestore/e/e/ee83674864f1c4ec88f34930138525c2d26a92ae,3\e\3e6365012de3ac1f286a59439943c46c5dd247ee
+y
+I02-java17-features/src/main/java/lesson/java17features/D_SealedClass.java,c\a\ca0c722ce390941fb077e000ad94c5b55082656e
+„
+T02-java17-features/src/test/java/lesson/java17features/B_SwitchExpressionsTests.java,9\1\91ccbedba06fa5854baed84be4bbda72bf2b852a
+~
+N02-java17-features/src/test/java/lesson/java17features/D_SealedClassTests.java,8\7\8762a069e40d38f4c54a51a09163eb5b6fd96ab9
+
+O02-java17-features/src/main/java/lesson/java17features/B_SwitchExpressions.java,6\4\64765cf8e8b2991fc748a40b9053a3678dc209d1
