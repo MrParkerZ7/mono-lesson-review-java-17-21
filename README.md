@@ -6,12 +6,12 @@
     - B - Switch expressions ✅
     - C - Pattern matching for `instanceof` ✅
     - D - Text blocks ✅
-    - C - Local variable type inference for lambda expressions
+    - E - Local variable type inference for lambda expressions ✅
   - Other key features
-    - D - Sealed classes and interfaces ✅
-    - E - Improved deserialization
-    - F - Flexible `main` method
-    - G - Enhanced random number generation
-    - H - Foreign Function and Memory API (incubator)
+    - F - Sealed classes and interfaces ✅
+    - G - Improved deserialization ❌
+    - H - Flexible `main` method ❌
+    - I - Enhanced random number generation ✅
+    - J - Foreign Function and Memory API (incubator)
 - 03 lesson java 21 since java 17
   - ?

@@ -26,7 +26,7 @@ class C_PatternMatchingInstanceofTests {
 
     @Test
     void sampleByIf_StorageInput_ReturnsExpectedString() {
-        C_Storage storage = new C_Storage("Alice", 30);
+        C_PatternMatchingInstanceof.Storage storage = new C_PatternMatchingInstanceof.Storage("Alice", 30);
         String result = patternMatchingInstanceof.sampleByIf(storage);
         assertEquals("Storage Alice 30", result);
     }

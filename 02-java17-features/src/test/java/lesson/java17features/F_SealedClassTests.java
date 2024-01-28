@@ -6,7 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
-class D_SealedClassTests {
+class F_SealedClassTests {
 
     @Test
     void testMessageSealedClass() {
