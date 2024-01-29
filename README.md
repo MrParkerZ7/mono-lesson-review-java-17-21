@@ -24,7 +24,7 @@
         - E - Key encapsulation mechanism API ❌ require --enable-preview
     - Additional notable changes
         - F - Switch expressions type ✅
-        - G - String templates
+        - G - String templates ❌ require --enable-preview
         - H - Elastic metaspace
         - I - Foreign-Memory Access API (Incubator)
         - J - Enable dynamic archiving of classes
