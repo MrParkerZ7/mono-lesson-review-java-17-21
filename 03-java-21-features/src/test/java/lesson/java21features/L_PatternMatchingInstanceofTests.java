@@ -6,9 +6,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
-class M_PatternMatchingInstanceofTests {
+class L_PatternMatchingInstanceofTests {
 
-    M_PatternMatchingInstanceof instance = new M_PatternMatchingInstanceof();
+    L_PatternMatchingInstanceof instance = new L_PatternMatchingInstanceof();
 
     @Test
     void testStringPatternMatching() {
@@ -26,7 +26,7 @@ class M_PatternMatchingInstanceofTests {
 
     @Test
     void testStoragePatternMatching() {
-        M_PatternMatchingInstanceof.Storage storageValue = new M_PatternMatchingInstanceof.Storage("John", 30);
+        L_PatternMatchingInstanceof.Storage storageValue = new L_PatternMatchingInstanceof.Storage("John", 30);
         String result = instance.sampleBySwitchExpression(storageValue);
         assertEquals("Storage John 30", result);
     }

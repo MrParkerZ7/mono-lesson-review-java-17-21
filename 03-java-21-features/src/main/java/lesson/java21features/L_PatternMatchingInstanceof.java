@@ -2,7 +2,7 @@ package lesson.java21features;
 
 
 
-public class M_PatternMatchingInstanceof {
+public class L_PatternMatchingInstanceof {
 
     record Storage(String name, Integer age) {
     }
