@@ -1,6 +1,6 @@
 package lesson.java21features;
 
-public class G_SwitchExpressionsType {
+public class F_SwitchExpressionsType {
 
     static String sampleByBool(Object value) {
         return switch (value) {

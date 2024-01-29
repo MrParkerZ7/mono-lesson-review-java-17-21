@@ -18,10 +18,10 @@
 - 03 lesson java 21 since java 17
     - Major additions
         - A - Virtual threads ✅
-        - B - Structured concurrency ❌ multitasks execution
-        - C - Scoped values ❌ structured concurrency relates
+        - B - Structured concurrency ❌ require --enable-preview
+        - C - Scoped values ❌ require --enable-preview
         - D - Sequenced collections ❌ internal enhancements
-        - E - Key encapsulation mechanism API 
+        - E - Key encapsulation mechanism API ❌ require --enable-preview
     - Additional notable changes
         - F - Switch expressions type ✅
         - G - String templates
