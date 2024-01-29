@@ -1,6 +1,6 @@
 package lesson.java21features;
 
-public class FormatterPatternSwitch {
+public class G_SwitchExpressionsType {
 
     static String sampleByBool(Object value) {
         return switch (value) {

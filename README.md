@@ -13,18 +13,19 @@
     - G - Improved deserialization ❌
     - H - Flexible `main` method ❌
     - I - Enhanced random number generation ✅
-    - J - Foreign Function and Memory API (incubator) ❌ lesson included c language
+    - J - Foreign Function and Memory API (incubator) ❌ excluded by c language relates
 - 03 lesson java 21 since java 17
   - Major additions
-    - Virtual threads
-    - Structured concurrency (Preview)
-    - Scoped values (Preview)
-    - Record patterns
-    - Sequenced collections
-    - Key encapsulation mechanism API
+    - A - Virtual threads
+    - B - Structured concurrency (Preview)
+    - C - Scoped values (Preview)
+    - D - Record patterns
+    - E - Sequenced collections
+    - F - Key encapsulation mechanism API
   - Additional notable changes
-    - String templates (Preview)
-    - Elastic metaspace
-    - Foreign-Memory Access API (Incubator)
-    - Enable dynamic archiving of classes
-    - Improved class loading
+    - G - Switch expressions type ✅
+    - H - String templates (Preview)
+    - I - Elastic metaspace
+    - J - Foreign-Memory Access API (Incubator)
+    - K - Enable dynamic archiving of classes
+    - L - Improved class loading
