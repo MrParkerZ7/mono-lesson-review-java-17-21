@@ -16,7 +16,7 @@
     - J - Foreign Function and Memory API (incubator) ❌ excluded by c language relates
 - 03 lesson java 21 since java 17
   - Major additions
-    - A - Virtual threads
+    - A - Virtual threads ✅
     - B - Structured concurrency (Preview)
     - C - Scoped values (Preview)
     - D - Record patterns
@@ -29,3 +29,4 @@
     - J - Foreign-Memory Access API (Incubator)
     - K - Enable dynamic archiving of classes
     - L - Improved class loading
+    - M - Pattern matching for `instanceof` ✅

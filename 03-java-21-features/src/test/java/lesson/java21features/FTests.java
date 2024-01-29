@@ -6,7 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class FTests {
     @Test
-    void mainMethodShouldNotThrowException() {
+    void sample() {
     }
 
 }

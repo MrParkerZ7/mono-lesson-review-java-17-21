@@ -1,9 +1,11 @@
 package lesson.java21features;
 
-record Storage(String name, Integer age) {
-}
 
-public class PatternMatchingInstanceof {
+
+public class M_PatternMatchingInstanceof {
+
+    record Storage(String name, Integer age) {
+    }
 
     String sampleBySwitchExpression(Object value) {
         return switch (value) {

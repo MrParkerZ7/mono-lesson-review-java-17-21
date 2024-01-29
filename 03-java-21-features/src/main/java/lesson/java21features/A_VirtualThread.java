@@ -3,7 +3,7 @@ package lesson.java21features;
 import java.util.concurrent.CountDownLatch;
 
 public class A_VirtualThread {
-    public static void main(String[] args) throws InterruptedException {
+    public static void sample() throws InterruptedException {
         CountDownLatch latch = new CountDownLatch(1);
         Thread virtualThread = Thread.ofVirtual().start(() -> {
             System.out.println(String.format("Running on a virtual thread: %s - %s", Thread.currentThread().isAlive(), Thread.currentThread().threadId()));
