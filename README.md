@@ -1,4 +1,4 @@
-## Lesson
+## Lessons
 
 - 01 sprint initialize gradle java 21
     - spring initializer - https://start.spring.io/
@@ -11,22 +11,22 @@
         - E - Local variable type inference for lambda expressions ✅
     - Other key features
         - F - Sealed classes and interfaces ✅
-        - G - Improved deserialization ❌
-        - H - Flexible `main` method ❌
+        - G - Improved deserialization ❌ canceled
+        - H - Flexible `main` method ❌ canceled
         - I - Enhanced random number generation ✅
-        - J - Foreign Function and Memory API (incubator) ❌ excluded by c language relates
+        - J - Foreign Function and Memory API (incubator) ⛔ excluded by c language relates
 - 03 lesson java 21 since java 17
     - Major additions
         - A - Virtual threads ✅
-        - B - Structured concurrency ❌ require --enable-preview
-        - C - Scoped values ❌ require --enable-preview
-        - D - Sequenced collections ❌ internal enhancements
-        - E - Key encapsulation mechanism API ❌ require --enable-preview
+        - B - Structured concurrency ⛔ require --enable-preview
+        - C - Scoped values ⛔ require --enable-preview
+        - D - Sequenced collections ⚠️ internal improvement
+        - E - Key encapsulation mechanism API ⛔ require --enable-preview
     - Additional notable changes
         - F - Switch expressions type ✅
-        - G - String templates ❌ require --enable-preview
-        - H - Elastic metaspace
-        - I - Foreign-Memory Access API (Incubator)
-        - J - Enable dynamic archiving of classes
-        - K - Improved class loading
+        - G - String templates ⛔ require --enable-preview
+        - H - Elastic metaspace ⚠️ internal improvement
+        - I - Foreign-Memory Access API ⛔ require --enable-preview
+        - J - Enable dynamic archiving of classes ⛔ require --enable-preview
+        - K - Improved class loading ⚠️ internal improvement
         - L - Pattern matching for `instanceof` ✅
