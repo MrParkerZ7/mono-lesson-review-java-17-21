@@ -31,7 +31,7 @@
         - K - Improved class loading ⚠️ internal improvement
         - L - Pattern matching for `instanceof` ✅
 - 04 Review lesson spring 
-  - Java Spring-Boot 
+  - Java spring mvc
 - 05 Review legacy lessons
   - Java
     - https://github.com/MrParkerZ7/lesson-first-java
