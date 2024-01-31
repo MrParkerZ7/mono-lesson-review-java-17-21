@@ -60,3 +60,6 @@
     - https://github.com/MrParkerZ7/sample-kotlin-gradle-dsl-mono-repository
   - Java/Kotlin
     - https://github.com/MrParkerZ7/mono-sample-java-kotlin-spring-jackson
+- 06 Attachment
+  - [postman test for 04 spring-mvc](04-java-spring-mvc/postman_collection/java-spring-mvc-postman.postman_collection.json)
+  - ![Coverage Test](coverage-test/Screenshot 2024-01-31 122034.png)
