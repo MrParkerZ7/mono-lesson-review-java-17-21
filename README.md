@@ -35,7 +35,7 @@
 - 05 Review legacy lessons
   - Java
     - https://github.com/MrParkerZ7/lesson-first-java
-    - https://github.com/MrParkerZ7/demo-fork-java-spring-cloud-function-webflux
+    - https://github.com/MrParkerZ7/fork-demo-java-spring-cloud-function-webflux
     - https://github.com/MrParkerZ7/sample-java-spring-boot-connect-mssql
     - https://github.com/MrParkerZ7/sample-java-spring-web-jpa-mysql-flyway
     - https://github.com/MrParkerZ7/sample-java-spring-sleuth-client
