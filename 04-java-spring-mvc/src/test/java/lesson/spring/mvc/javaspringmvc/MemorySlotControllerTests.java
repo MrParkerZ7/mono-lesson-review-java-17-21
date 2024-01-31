@@ -1,16 +1,13 @@
 package lesson.spring.mvc.javaspringmvc;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 
 import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
@@ -33,36 +30,10 @@ import java.io.IOException;
 @WebMvcTest(MemorySlotController.class)
 class MemorySlotControllerTests {
 
-    public class ObjectSerializer extends JsonSerializer<Object> {
-
-        @Override
-        public void serialize(Object value, JsonGenerator gen, SerializerProvider serializers) throws IOException {
-            gen.writeObject(value);
-        }
-    }
-
-
-    public class ObjectDeserializer extends JsonDeserializer<Object> {
-
-        @Override
-        public Object deserialize(JsonParser p, DeserializationContext ctxt) throws IOException {
-            return p.readValueAs(Object.class);
-        }
-    }
-
-    @JsonSerialize(using = ObjectSerializer.class)
-    @JsonDeserialize(using = ObjectDeserializer.class)
-    public class TestObject {
-    }
-
-
     @Autowired
     private MockMvc mockMvc;
 
     @Autowired
-    private ObjectMapper objectMapper;
-
-    @MockBean
     private MemorySlotController memorySlotController;
 
     private String sampleObject;
@@ -80,19 +51,15 @@ class MemorySlotControllerTests {
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(jsonBody))
                 .andExpect(status().isOk())
-                .andExpect(content().string(""));
-
-        verify(memorySlotController).postMemory(any());
+                .andExpect(content().string("{\"name\":\"Puck\"}"));
     }
 
     @Test
     void testGetMemory() throws Exception {
-        when(memorySlotController.getMemory()).thenReturn(sampleObject);
+        MemorySlotController.memory = sampleObject;
 
         mockMvc.perform(get("/memory"))
                 .andExpect(status().isOk())
                 .andExpect(content().json(sampleObject));
-
-        verify(memorySlotController).getMemory();
     }
 }
