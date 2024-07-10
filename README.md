@@ -32,7 +32,7 @@
         - L - Pattern matching for `instanceof` ✅
 - 04 Review lesson spring 
   - Java spring mvc
-- 05 Review legacy lessons
+- 90 Review legacy lessons
   - Java
     - https://github.com/MrParkerZ7/lesson-first-java
     - https://github.com/MrParkerZ7/fork-demo-java-spring-cloud-function-webflux
@@ -60,7 +60,7 @@
     - https://github.com/MrParkerZ7/sample-kotlin-gradle-dsl-mono-repository
   - Java/Kotlin
     - https://github.com/MrParkerZ7/mono-sample-java-kotlin-spring-jackson
-- 06 Attachment
+- 91 Attachment
   - [postman test for 04 spring-mvc](04-java-spring-mvc/postman_collection/java-spring-mvc-postman.postman_collection.json)
   - ![Coverage Test](images/coverage-test.png)
 - Tags 
