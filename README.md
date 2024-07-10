@@ -32,6 +32,9 @@
         - L - Pattern matching for `instanceof` ✅
 - 04 Review lesson spring 
   - Java spring mvc
+- 05 Review lesson spring JPA
+  - Java spring jpa
+  - docker-compose up postgres
 - 90 Review legacy lessons
   - Java
     - https://github.com/MrParkerZ7/lesson-first-java
