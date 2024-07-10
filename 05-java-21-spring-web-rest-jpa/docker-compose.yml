@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:12.19
+    container_name: postgres_container
+    environment:
+      POSTGRES_USER: user_lesson_05
+      POSTGRES_PASSWORD: password_lesson_05
+      POSTGRES_DB: lesson_05
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
